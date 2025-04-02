@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design</title>
+    <link rel="shortcut icon" href="rp.jpg" type="image/x-icon">
+    <style>
+        .img{
+            border: solid 2px black;
+            height: 300px;
+            width: 300px;
+        }
+        .img1{
+            background: url(murad.png) center / cover;
+        }
+        @media (max-width: 800px) {
+            .container {
+                flex-wrap: wrap;
+            }
+
+            .img1 {
+                border-radius: 50%;
+                background: url(murad2.png) center / cover;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="img img1"></div>
+    </div>
+    
+</body>
+
+</html>
