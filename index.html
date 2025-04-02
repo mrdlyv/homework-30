@@ -7,23 +7,47 @@
     <title>Responsive Web Design</title>
     <link rel="shortcut icon" href="rp.jpg" type="image/x-icon">
     <style>
-        .img{
+        .img {
             border: solid 2px black;
             height: 300px;
             width: 300px;
         }
-        .img1{
+
+        .img1 {
             background: url(murad.png) center / cover;
         }
+
         @media (max-width: 800px) {
             .container {
                 flex-wrap: wrap;
             }
 
-            .img1 {
+            .img5{
                 border-radius: 50%;
-                background: url(murad2.png) center / cover;
+             
             }
+        }
+        
+
+        .container {
+            float: left;
+            margin-left: 5px;
+        }
+
+        .img2 {
+            background: url(ali.png) center / cover;
+        }
+
+        .img3 {
+            background: url(gunes.png) center / cover;
+        }
+
+        .img4 {
+            background: url(kevin.png) center / cover;
+        }
+
+        .img5 {
+            background: url(leman.png) center / cover;
         }
     </style>
 </head>
@@ -32,7 +56,18 @@
     <div class="container">
         <div class="img img1"></div>
     </div>
-    
+    <div class="container">
+        <div class="img img2"></div>
+    </div>
+    <div class="container">
+        <div class="img img3"></div>
+    </div>
+    <div class="container">
+        <div class="img img4"></div>
+    </div>
+    <div class="container">
+        <div class="img img5"></div>
+    </div>
 </body>
 
 </html>
